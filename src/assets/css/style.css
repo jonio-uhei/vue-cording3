@@ -1,0 +1,434 @@
+
+/*--------------------------------ここからreset.css----------------------------------------------------------*/
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+p,.nav{
+    margin:0;
+}
+/*-----------------------------------ここまでreset.css------------------------------------------------------------*/
+
+li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color:#333;
+}
+header,main,footer{
+    background-color:#FFEA78;
+}
+img{
+    max-width: 100%;
+}
+.pc{
+    display: none;
+}
+header{
+    padding-bottom: 50px;
+}
+header img:first-child{
+        padding: 50px 0 20px;
+        width: 36%;
+        display: block;
+        margin:0 auto;
+}
+header img:last-child{
+        width: 90%;
+        display: block;
+        margin:0 auto;
+}
+.wrap{
+    padding: 0 20px;
+}
+.block img:first-child{
+    display: block;
+}
+.block img:last-child{
+    width: 95%;
+    display: block;
+    margin:10px auto 0;
+}
+.block-wrap{
+    display: flex;
+    justify-content:space-around;
+    padding-bottom: 30px;
+}
+.member{
+    background-color:#FDD157;
+    border-radius:20px;
+    padding: 30px;
+}
+.member img:first-child{
+    width: 71%;
+    display: block;
+    margin:0 auto;
+}
+.member p{
+    font-size: 15px;
+    line-height:1.8em;
+    margin-top: 20px;
+}
+.member img:last-child{
+    width: 87%;
+    display: block;
+    margin:20px auto 0;
+}
+.spotlight{
+    background-color:#fff;
+    border-radius:20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.spotlight p{
+    padding: 20px 30px 20px 30px;
+    line-height:1.8em;
+    text-align:initial;
+}
+.spotlight span{
+    font-weight: bold;
+}
+.image{
+    width: 75%;
+    display: block;
+    margin:60px auto 40px;
+}
+.articles-wrap{
+    background-color:#fff;
+    border-radius:10px;
+}
+.tab_list{
+    display: flex;
+    justify-content:center;
+    width: 90%;
+    margin:0 auto;
+}
+.tab_list li{
+    width: 47%;
+}
+.content{
+    background-color:#8BB7E7;
+    padding: 30px 20px 50px;
+    transition-duration:0.8s;
+}
+.content-wrap{
+    background-color:#fff;
+    border:1px solid #333;
+    border-radius:10px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content-wrap p{
+    text-align:initial;
+    font-size: 15px;
+    line-height:1.7em;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.content-wrap img:first-child{
+    display: block;
+}
+.coveraged{
+    width: 83%;
+    display: block;
+    margin:0 auto;
+}
+.subscribe{
+    width: 86%;
+    display: block;
+    margin:10px auto 0;
+}
+.smart{
+    width: 95%;
+    display: block;
+    margin:0 auto;
+
+}
+.article{
+    background-color:#FF9803;
+    padding: 30px 20px 50px;
+    transition-duration:0.8s;
+}
+.step1{
+    width: 48%;
+}
+.member-wrap{
+    padding: 50px 20px;
+}
+.bottom{
+    background-color:#EAEAEA;
+    padding: 40px 50px;
+    text-align: center;
+}
+.bottom-block{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin: 15px 0;
+}
+.bottom-block img{
+    width: 16%;
+    height:16%;
+    display: block
+}
+.bottom-block img:nth-child(2){
+    margin-left: 10px;
+}
+.bottom-block img:last-child{
+    width: 39%;
+}
+.bottom-image1{
+    width: 86%;
+}
+.company-name{
+    font-weight: bold;
+}
+.contact{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.company-name{
+    font-size: 14px;
+    margin-top: 30px;
+}
+.company-address{
+    font-size: 16px;
+    line-height:1.7em;
+    margin-top: 20px;
+}
+footer{
+    padding: 20px;
+    background-color:#111;
+}
+footer p{
+    font-size: 13px;
+    text-align: center;
+    color:#fff;
+}
+
+
+@media screen and (min-width:768px) { 
+    .image{
+        width: 40%;
+    }
+    .coveraged {
+        width: 39%;
+    }
+    .subscribe {
+        width: 39%;
+    }
+    .bottom-block img {
+        width: 11%;
+        height: 11%;
+    }
+    .bottom-image1 {
+        width: 73%;
+    }
+    .wrap {
+        padding: 0 30px;
+    }
+    .content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .member-wrap {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media screen and (min-width:1024px) { 
+    .pc{
+        display: block;
+    }
+    .smart{
+        display: none;
+    }
+    header img:first-child {
+        padding: 105px 0 40px;
+        width: 13%;
+    }
+    header img:last-child {
+        width: 50%;
+    }
+    .block-wrap {
+        width: 830px;
+        margin:0 auto;
+    }
+    .member-spotlight{
+        width: 830px;
+        margin:0 auto;
+    }
+    .member{
+        margin-top: 40px;
+        padding: 60px;
+    }
+    .member p{
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    .member img:last-child {
+        margin-top: 40px;
+    }
+    .member-wrap {
+        padding-bottom: 90px;
+    }
+    .spotlight{
+        margin-top: 70px;
+    }
+    .spotlight p{
+        font-size: 18px;
+    }
+    .image {
+        width: 23%;
+        margin-top: 70px;
+    }
+    .content {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .article {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .content-wrap{
+        width: 810px;
+        margin:0 auto 50px;
+        display: flex;
+    }
+    .content-wrap img:last-child{
+        display: block;
+        margin:0 auto;
+    }
+    .content-wrap p{
+        width: 430px;
+        font-size: 18px;
+    }
+    .coveraged {
+        width: 22%;
+    }
+    .subscribe {
+        width: 22%;
+    }
+    .tab_list{
+        width: 810px;
+    }
+    .tab_list li {
+        width: 50%;
+    }
+    .step1 {
+        width: 18%;
+    }
+    .member-wrap{
+        width: 810px;
+        margin:0 auto;
+    }
+    .bottom-wrap{
+        width: 810px;
+        margin:0 auto;
+        display: flex;
+    }
+    .bottom p{
+        font-size: 18px;
+    }
+}
